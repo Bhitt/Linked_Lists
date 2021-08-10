@@ -20,3 +20,7 @@ The "Runner" Technique:
 Recursive Problems:
 	A number of linked list problems rely on recursion. If you're having trouble solving a linked list
 	problem, you should explore if a recursive approach will work.
+Limited Access:
+	Sometimes you will have limited access to the linked list (maybe only part of the list). You can
+	manipulate the data in that part of the list to accomplish different things, i.e.: Copying the nodes
+	following your start node, to psuedo-delete the given node from the list. See "Deleting Middle Node" problem.
