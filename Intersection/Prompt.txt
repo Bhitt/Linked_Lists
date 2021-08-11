@@ -1,0 +1,21 @@
+Intersection:
+	Given two (singly) linked lists, determine if the two lists intersect. Return the intersecting
+	node. Note that the intersection is defined based on reference, not value. That is, if the kth
+	node of the first linked list is the exact same node (by reference) as the jth node of the second
+	linked list, then they are intersecting.
+Hints:
+	#20: You can do this in O(A+B) time and O(1) additional space. That is, you do not need a hash table.
+	#45: Examples will help. Draw lists that intersect and some that don't.
+	#55: Focus first on identifying if there is an intersection.
+	#65: Observe that two intersecting lists will always have the same last node. Once they intersect,
+		all nodes after that will be equal.
+	#76: You can determine if two lists intersect by traversing to the end of each and comparing their 
+		tails.
+	#93: Now you need to find where they intersect. Suppose they were the same length. How could you
+		do this?
+	#111: If they were the same length, you could traverse them both until they were equal. What about
+		different lengths?
+	#120: Try using the difference between the lengths of the two lists.
+	#129: If you move a pointer in the longer list forward by the difference in the lengths, you can
+		then apply a similar approach to the scenario where they are equal.
+Good Questions:
